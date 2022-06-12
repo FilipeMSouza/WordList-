@@ -27,8 +27,6 @@ void listGenerator(String str, int listLength) {
     keyWords.add(initial + (randNumbers[i].toString()) + end);
   }
 
-  print(keyWords);
-
   File file = File("KeyWords.txt");
   var sink = file.openWrite();
 
